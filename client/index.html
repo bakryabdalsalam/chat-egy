@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chat-egy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://github.com/bakryabdalsalam">
+              <i class="fab fa-github"></i>
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://bakry-homepage.vercel.app">
+              <i class="fas fa-briefcase"></i>
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-linkedin"></i>
+              LinkdIn
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="app"></div>
+    <div id="chat_container"></div>
+    <form>
+      <textarea
+        name="prompt"
+        cols="1"
+        rows="1"
+        placeholder="Ask Chat-egy...."
+      ></textarea>
+      <button type="submit"><img src="assets/send.svg" /></button>
+    </form>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
